@@ -18,6 +18,6 @@ public class SimpleController {
     public ResponseEntity<String> getResponse(ServerHttpRequest request) {
         LOGGER.info("Dragon Coder received a request!!!");
 
-        return ResponseEntity.ok("{\"test\":\"success\"}");
+        return ResponseEntity.ok("{\"message\":\"Hello World\"}");
     }
 }
